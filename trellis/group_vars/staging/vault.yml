@@ -1,0 +1,21 @@
+# Created by trellis-cli v0.7.1
+# Documentation: https://roots.io/trellis/docs/vault/
+
+vault_mysql_root_password: qQCfrdY4eSdrGcxxA49R1V4bNYylGFuzyCiM5XQ9wLWyLIL7fnnvOLnhvYbR8gBQ
+vault_users:
+- name: '{{ admin_user }}'
+  password: ZNmYXDi03bLvpaspTCWLQFVNb6BCekNNQPQbXdMpiJXgkl2Y0E1KeSxfJ21vTbFU
+  salt: DWVWhghlug8mFlZw3owgfg3eyV1qsXnJagWIgfNiKbdJY8jhCF1mYb5sPjeFuysb
+vault_wordpress_sites:
+  brontemiles.co.za:
+    admin_password: MxtzECimeiNIo4VMtBGDiK8ltypzFdnat5Mg7GqNVmu8L3S6U71pqhxgmiptMuVr
+    env:
+      db_password: pnpHhNxE34o3wt2xKgXLeJxtWZBfPGW1RKFeie6UIMkou5EPlxzKXR7wFG8IR7g4
+      auth_key: Ho446SggA8gPsdtPf5iQXnUmlFM9MS0ZjOaEmhNBOQAltuTzOmH0GdeUtH1afNMb
+      secure_auth_key: NX5p2nEyRv1sZ2oaS6zrVyb5aCIlCbg1OaIgnAAsrqK0iIY8WbaXUmeQgHLNR6So
+      logged_in_key: Ia4ehjcEOQXdNfK8QCB2M7RiIwYDwmCs3CmUV2wpvNfya4BlGjT9vaUeSzFrqJCR
+      nonce_key: bRtIkaeVhnFs0eXie0U5lDZqJEcaTNxR8L9wCfEUqYvYWQHAfe1QE7jOuuZ6sl64
+      auth_salt: Lw35Irhx3v44GNoPCVWFvJuQmZhYl69iUhbKwtVLlcfhLVGJV3tu3IqPEtjCsrGy
+      secure_auth_salt: PdQih5mf909oeNChyh2FgczgWjzcmGiGAmKDijU53PdNOcN8tE4Cgg8BsdTtUmAI
+      logged_in_salt: oKQCjuQSlZkp9yoEAA8xfcouYmDIBUELqFjBGwOngzJ5Fhb9ANON8hU4vEqkNbWq
+      nonce_salt: AqRvhJqySbO2fUNC7zfkmJ6MpRPavVdRkCOyg24XD4ArGX2BtcE2UDELiI8LjdRS
